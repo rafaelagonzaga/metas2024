@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 h1{
   color: firebrick;
+}
+body{
+ background-color: azure;
+ font-family: Oswald;
 }
