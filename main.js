@@ -39,7 +39,12 @@
         
         if(tempoFinal > 0){
             return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+        }else{
+             return "PRAZO ENCERRADO"
         }
-         return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-        }
-
+    }
+function AtualizaCronometro(){
+ //laço de repetição para interagi com todos os objetivos
+ for (let i = 0; i < contadores.length; i++)
+     contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela e meta
+}
