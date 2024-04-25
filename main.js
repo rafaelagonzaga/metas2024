@@ -48,3 +48,10 @@ function AtualizaCronometro(){
  for (let i = 0; i < contadores.length; i++)
      contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela e meta
 }
+function comecaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
+}
+
+comecaCronometro();
+
