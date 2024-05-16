@@ -43,7 +43,7 @@
              return "PRAZO ENCERRADO"
         }
     }
-function AtualizaCronometro(){
+function atualizaCronometro(){
  //laço de repetição para interagi com todos os objetivos
  for (let i = 0; i < contadores.length; i++)
      contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela e meta
