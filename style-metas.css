@@ -98,3 +98,8 @@
         color: var(--verde);
         text-transform: uppercase;
     }
+
+    .contador{
+        font-size: 28px;
+        text-align: center;
+    }
